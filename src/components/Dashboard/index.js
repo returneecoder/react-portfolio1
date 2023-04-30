@@ -17,7 +17,7 @@ const Dashboard = () => {
     images:{},
   })
   const form = useRef();
-  const {name,description,url,images} = formData
+  /* const {name,description,url,images} = formData */
  
 
 
