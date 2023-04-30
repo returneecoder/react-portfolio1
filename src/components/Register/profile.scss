@@ -1,0 +1,33 @@
+.profile{
+  width: 90%;
+  max-width: 400px;
+  border: 1px solid #dcdcdc;
+  padding: 20px;
+  text-align: center;
+  margin-left:200px;
+  font-family: 'Helvetica Neue', sans-serif;
+    color: #ffd700;
+        font-size: 18px;
+}
+
+.profile p {
+  text-align: left;
+}
+
+.profile > span{
+  color: blue;
+  margin-top: 100px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+.profile{
+  width: auto;
+  height:auto;
+    text-align: center;
+  font-family: 'Helvetica Neue', sans-serif;
+    color: #ffd700;
+        font-size: 15px;
+}
+
+}

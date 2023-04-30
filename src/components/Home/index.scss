@@ -78,6 +78,7 @@
       color: #333;
     }
   }
+  
 }
 
 
@@ -91,6 +92,7 @@
 
   .home-page .text-zone {
     position: initial;
+    font-size: 10px;
     width: 100%;
     transform: none;
     padding: 10px;
@@ -106,16 +108,16 @@
 
   .logo-container {
     position: relative;
-    width: 100px;
+    width:350px;
     height: auto;
-    top: 50px;
+    top: 0px;
     right: 0;
     box-sizing: border-box;
     margin: auto;
     left: 0;
   }
 
-  .logo-container svg {
+  .logo-container img {
     position: absolute;
     top: auto;
     right: auto;

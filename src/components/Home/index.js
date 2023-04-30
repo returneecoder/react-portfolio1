@@ -2,15 +2,17 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import LogoTitle from '../../assets/images/logo-s.png'
-import logo from '../../assets/images/logo-s1.svg'
+import LogoTitle from '../../assets/images/logo-s1.png'
+import LogoS from '../../assets/images/logo-s1.svg'
+
+
 
 import './index.scss'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['A', 'M', 'N', 'A']
+  const nameArray = ['','{',"A",'m','n','a' ,' ','A','k','h','t','a','r','}']
   const jobArray = [
     'w',
     'e',
@@ -29,12 +31,12 @@ const Home = () => {
   ]
 
   useEffect(() => {
-    const animate=  () =>{
-      return setTimeout(() => {
-        setLetterClass('text-animate-hover')
-      }, 4000)
-    }
-    animate();
+    const homeEffect =() =>{
+    return setTimeout(() => {
+      setLetterClass('text-animate-hover')
+    }, 4000)
+  }
+  homeEffect();
   }, [])
 
   return (
@@ -47,7 +49,10 @@ const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
-           <span>   </span>
+            <img
+              src={LogoTitle}
+              alt="JavaScript Developer Name, Web Developer Name"
+            />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -65,7 +70,15 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        {/* <img src={logo}  alt="JavaScript Developer Name, Web Developer Name"/> */}
+        
+        <div className="logo-container" >
+       <img className="solid-logo"
+              src={LogoS}
+              alt="JavaScript Developer Name, Web Developer Name"
+            />
+      
+    </div>
+            
       </div>
 
       <Loader type="pacman" />

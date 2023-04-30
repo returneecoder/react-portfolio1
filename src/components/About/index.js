@@ -16,11 +16,12 @@ const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   useEffect(() => {
-    const aboutEffect=() =>{
+    const timerabout= () =>{
     return setTimeout(() => {
       setLetterClass('text-animate-hover')
-    }, 3000)}
-    aboutEffect()
+    }, 3000)
+  }
+  timerabout()
   }, [])
 
   return (
@@ -39,14 +40,16 @@ const About = () => {
             established IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
-          <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+          <p>
+            I’m not a designer but I have a good sense of aesthetics, and
+            experience in responsive, mobile-first web design. I put special
+            effort into optimizing my code and providing the best user
+            experience. I would love to give you any kind of support also after
+            the project's completion. I guarantee a commitment during work on
+            your project.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            Its hard to define myself,If you would like to know more about me .Just drop in and say Hiii!!!
           </p>
         </div>
 
