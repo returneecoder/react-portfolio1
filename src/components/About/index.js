@@ -36,20 +36,15 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
+            I'm a self learned front-end developer looking for a an opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
           <p>
-            I’m not a designer but I have a good sense of aesthetics, and
-            experience in responsive, mobile-first web design. I put special
-            effort into optimizing my code and providing the best user
-            experience. I would love to give you any kind of support also after
-            the project's completion. I guarantee a commitment during work on
-            your project.
+           As a returnee to the workforce I have upskilled myself with the latest technologies with my niche being
+           front-end development.I am a MERN stack fan and love to work on React.js.I am open to internships and volunteer work.
           </p>
           <p>
-            Its hard to define myself,If you would like to know more about me .Just drop in and say Hiii!!!
+            If you would like work with me  or just want to know more about me.Just drop in and say Hiii!!!
           </p>
         </div>
 
