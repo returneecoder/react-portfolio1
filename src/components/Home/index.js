@@ -28,6 +28,7 @@ const Home = () => {
     'e',
     'r',
     '.',
+    '.',
   ]
 
   useEffect(() => {
