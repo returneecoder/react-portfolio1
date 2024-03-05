@@ -111,3 +111,19 @@
         }
     }
 }
+
+
+@media screen and (max-width: 700px) {
+
+ .portfolio-page .images-container  {
+        display:grid;
+         width:70vw;
+         
+       }
+    .image-box {
+          
+          margin: 10px 20px;
+           width: 100vw;
+           
+    }
+}
